@@ -5,10 +5,14 @@
     <title>Title</title>
 </head>
 <body>
-<p>Learning Log</p>
-<p>
-    Learning Log helps you keep track of your learning,
-    for any topic you are interested in.
-</p>
+{% extends 'learning_logs/base.html' %}
+
+{% block content%}
+    <p>
+        Learning Log helps you keep track of your learning,
+        for any topic you are interested in.
+    </p>
+{% endblock content %}
+
 </body>
 </html>
